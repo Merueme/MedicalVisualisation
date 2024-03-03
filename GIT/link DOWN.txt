@@ -1,0 +1,20 @@
+/index.php/rsd/article/download/4244/3541
+
+https://www.krcp-ksn.org/journal/download_pdf.php?doi=10.23876/j.krcp.20.046
+
+
+??? https://pubs.rsc.org/en/content/articlepdf/2020/ra/d0ra03582c ??? 
+(no User-Agent, donc pour ouvrire le site on prends un header dans le request.get():
+headers={"User-Agent" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"}
+ET 
+probleme encodage character '0x9d' dans le fichier
+
+https://journals.aace.com/doi/pdf/10.4158/EP-2020-0108 -> NET::ERR_CERT_COMMON_NAME_INVALID
+
+http://158.69.128.83/~waocp/journal/index.php/apjec/article/download/363/1326 -> Site down
+
+https://bmgn-lchr.nlarticles/10.18352/bmgn-lchr.10784/galley/12152/download/ -> down
+
+
+
+
